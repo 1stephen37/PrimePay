@@ -1,0 +1,139 @@
+@media (max-width: 76.8em) {
+
+    .banner {
+        width: 100%;
+        padding: 0;
+        margin-top: 5rem;
+    }
+
+    .banner .title {
+        width: 100%;
+        font-size: 3.5rem;
+    }
+
+    .image {
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .background {
+        height: 30rem;
+        margin-top: 5rem;
+    }
+
+    .user {
+        flex-direction: column;
+        gap: 2rem;
+        height: auto;
+        justify-content: center;
+    }
+
+    .user .name {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .user .name .nick {
+        align-items: center;
+    }
+
+    .user .icon {
+        justify-content: center;
+    }
+
+    .section1 {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .section2 {
+        width: 100%;
+        margin-top: 5rem;
+    }
+
+    .section2 .heading {
+        font-size: 3.5rem;
+    }
+
+    .section2 .des {
+        font-size: 1.4rem;
+    }
+
+    .section2 .sub-des {
+        width: 100%;
+        font-size: 1.2rem;
+        margin-top: 2rem;
+    }
+
+    .content-blog {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .content-blog .left {
+        width: 100%;
+        height: 6rem;
+    }
+
+    .content-blog .right {
+        padding: 2rem 2rem;
+        font-size: 1.9rem;
+    }
+
+    .section3 {
+        width: 100%;
+    }
+
+    .section3 .heading {
+        font-size: 2.5rem;
+    }
+    
+    .section3 .des {
+        font-size: 1.4rem;
+    }
+
+    .section4 {
+        width: 100%;
+        font-size: 1.2rem;
+    }
+
+    .comment {
+        width: 100%;
+        margin-top: 5rem;
+        height: auto;
+        padding: 0;
+    }
+
+    .comment .sub {
+        height: auto;
+    }
+
+    .comment .sub .des {
+        font-size: 1.9rem;
+    }
+
+    .section5 {
+        margin-top: 5rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .section5 .box-2 {
+        flex-direction: column;
+    }
+
+    .section5 .box-2 .box {
+        width: 100%;
+    }
+
+    .box-2 .box .detail .title {
+        font-size: 3rem;
+    }
+
+
+}
+
+
+
+

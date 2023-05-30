@@ -1,0 +1,142 @@
+@media (max-width: 76.8em) {
+
+    header {
+        width: 90%;
+        height: 4rem;
+        margin: 1rem auto;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    header .logo {
+        margin-right: 10%;
+        width: 9.3rem;
+        height: 2.6rem;
+    }
+
+    header .nav {
+        display: none;
+    }
+
+    header .button-header {
+        display: none;
+    }
+
+    footer .newstater {
+       display: none;
+    }
+
+    footer {
+        margin-top: 5rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .footer .logo {
+        width: 100%;
+        align-items: center;
+    }   
+
+    .footer .logo .des {
+        text-align: center;
+    }
+
+    .footer .line {
+        display: none;
+    }
+
+    .footer .content {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        justify-content: center;
+        gap: 5rem;
+    }
+
+    .footer .content .content-sc .des,
+    .footer .content .content-sc .heading {
+        text-align: center;
+    }
+
+    .menu,
+    .utility, 
+    .address {
+        width: 100%;
+    }
+
+    .copyright {
+        font-size: 1.4rem;;
+    }
+
+    header .sub-menu {
+        display: block;
+        font-size: 2rem;
+        font-weight: 400;
+    }
+
+    header .sub-menu:active {
+        opacity: 0.8;
+    }
+    
+    .subnav {
+        display: none;
+        position:absolute;
+        top: 5rem;
+        right: 3rem;
+        width: auto;
+        height: auto;
+        background-color: #fff;
+        border-radius: 5px ;
+        border: 1px solid #ccc;
+        padding: 2rem 1rem;
+    }
+
+    .open {
+        display: block;
+    }
+    
+    .subnav ul {
+        flex-direction: column;
+        list-style-type: none;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .subnav li {
+        display: inline-block;
+    }
+    
+    .subnav li a {
+        font-weight: 500;
+        font-size: 1.8rem;
+        line-height: 160%;
+        color: #231656;
+        text-decoration: none;
+        margin: 0 3rem;
+    }
+
+    .subnav .button-header {
+        width: 15rem;
+        height: 7rem;
+        background: #231656;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 160%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    
+}
+
+
+
+

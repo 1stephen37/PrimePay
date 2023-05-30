@@ -1,0 +1,258 @@
+.banner {
+    width: 100%;
+    height: 40rem;
+    font-weight: 600;
+    font-size: 8rem;
+    line-height: 40rem;
+    text-align: center;
+    color: #231656;
+    background: url(../img/banner/blog.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+.section1 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15rem;
+    flex-direction: column;
+    gap: 15rem;
+}
+
+.section1>.row {
+    justify-content: space-between;
+}
+
+.section1 .row .col {
+    gap: 2rem;
+}
+
+.section1 .row .col .heading {
+    font-weight: 600;
+    font-size: 5.5rem;
+    line-height: 101.2%;
+    color: #B5B5B5;
+}
+
+.section1 .row .col .heading span {
+    color: #231656;
+}
+
+.section1 .row .col .search {
+    width: 429.19px;
+    height: 80px;
+    background: #FFFFFF;
+}
+
+.section1 .row .col .search input {
+    box-shadow: 40px 48px 105px #EBEBEB;
+    border-radius: 77px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 198.5%;
+    color: #4E4E4E;
+    border: none;
+}
+
+.section1 .row .col .button {
+    justify-content: center;
+    align-items: center;
+    width: 139px;
+    height: 80px;
+    background: #231656;
+    box-shadow: 40px 48px 105px #EBEBEB;
+    border-radius: 82px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+.section1 .content {
+    gap: 10%;
+}
+
+.section1 .content .left {
+    width: 45%;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.section1 .content .left .image {
+    width: 100%;
+    height: 43rem;
+    cursor: pointer;
+}
+
+.section1 .content .left .detail {
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.content .left .detail .button {
+    width: 15rem;
+    height: 5rem;
+    background: #E5DFF4;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 160%;
+    color: #7D5FFF;
+}
+
+.content .left .detail .title {
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 51px;
+    text-align: center;
+    color: #3D3269;
+    cursor: pointer;
+}
+
+.content .left .detail .time {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3D3269;
+
+}
+
+.section1 .content .right {
+    width: 45%;
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.section1 .content .right .row {
+    gap: 31px;
+    width: 100%;
+    height: 22.5rem;
+}
+
+.content .right .row .image {
+    width: 22.5rem;
+    height: 22.5rem;
+}
+
+
+.section1 .content .right .row .detail {
+    flex-direction: column;
+    width: 42rem;
+    gap: 2rem;
+}
+
+.content .right .row .detail .title {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 43px;
+    color: #3D3269;
+}
+
+.content .right .row .detail .button {
+    width: 15rem;
+    height: 5rem;
+    background: #E5DFF4;
+    border-radius: 100px;
+    justify-content: center;
+    align-items: center;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 160%;
+    color: #7D5FFF;
+}
+
+.content .right .row .detail .time {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #3D3269;
+}
+
+.section2 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15rem;
+    height: 1571.49px;
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.section2 .heading {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 101.2%;
+    text-align: center;
+    color: #B5B5B5;
+}
+
+.section2 .heading span {
+    color: #231656;
+}
+
+.section2 .box-grid {
+    grid-template-rows: 702.66px 702.66px;
+    grid-template-columns: 50% 50%;
+    column-gap: 5rem;
+    row-gap: 5rem;
+}
+
+.section2 .box-grid .box {
+    flex-direction: column;
+    gap: 5rem;
+}
+
+.section2 .box-grid .box .image {
+    width: 100%;
+    height: 43rem;
+}
+
+.section2 .box-grid .box .detail {
+    flex-direction: column;
+    gap: 2rem;
+    align-items: center;
+    padding: 0 1rem;
+}
+
+.box-grid .box .detail .button {
+    width: 15rem;
+    height: 5rem;
+    background: #E5DFF4;
+    border-radius: 100px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #7D5FFF;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.box-grid .box .detail .title {
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 51px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #3D3269;
+}
+
+.box-grid .box .detail .time {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: #3D3269;
+}

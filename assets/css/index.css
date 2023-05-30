@@ -1,0 +1,713 @@
+.banner {
+    width: 100%;
+    height: auto;
+}
+
+.section1 {
+    height: 91rem;
+    background: #F5F5F5;
+    z-index: -1;
+    position: relative;
+    top: -40rem;
+    width: 100%;
+}
+
+.section1 .row {
+    width: 90%;
+    position: absolute;
+    bottom: 16.2rem;
+    left: 17rem;
+    gap: 5.5rem;
+}
+
+.section1 .row .box-3 {
+    width: 43rem;
+    height: 25.6rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 3rem;
+}
+
+.section1 .row .icon {
+    width: 12.7rem;
+    height: 8.7rem;
+}
+
+.section1 .row .detail {
+    width: 43rem;
+    height: 14rem;
+    flex-direction: column;
+    align-items: center;
+}
+
+.section1 .row .heading {
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 133.2%;
+    text-transform: capitalize;
+    color: #231656;
+}
+
+.section1 .row .des {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 160%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #4E4E4E;
+    width: 43rem;
+}
+
+.section2 {
+    width: 90%;
+    height: auto;
+    margin: 0 auto 0 auto;
+    position: relative;
+    top: -20rem;
+    background: #F5F5F5;
+    border-radius: 3rem;
+}
+
+.section2 .row {
+    justify-content: space-between;
+}
+
+.section2 .row .left {
+    width: 57rem;
+    height: 51rem;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.section2 .row .left .heading {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 101.2%;
+    color: #B5B5B5;
+}
+
+.section2 .row .left .heading span {
+    color: #231656;
+}
+
+.section2 .row .left .des {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #4E4E4E;
+}
+
+.section2 .row .right {
+    width: auto;
+    height: auto;
+}
+
+.row .left .button {
+    width: auto;
+    height: 10rem;
+    gap: 5rem;
+}
+
+.row .left .button .button-play {
+    width: 10rem;
+    height: 10rem;
+}
+
+.left .button .button-play .background {
+    width: 10rem;
+    height: 10rem;
+    border-radius: 10rem;
+    background: #FFC173;
+    box-shadow: 3px 19px 29px rgba(185, 185, 185, 0.25);
+    justify-content: center;
+    align-items: center;
+}
+
+.left .button .button-play .background .play {
+    width: 4rem;
+    height: 4rem;
+}
+
+.button .button-play .background .play i {
+    font-size: 4.5rem;
+    font-weight: 100;
+}
+
+.row .left .button .button-des {
+    width: auto;
+    height: 100%;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 160%;
+    text-transform: capitalize;
+    flex-direction: column;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.left .button .button-des .top {
+    width: 100%;
+    color: #231656;
+}
+
+
+.left .button .button-des .bot {
+    width: 100%;
+    color: #7D5FFF;
+    text-decoration: none;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section2 .bottom {
+    position: absolute;
+    top: 50%;
+    height: 25.6rem;
+    width: 80%;
+    left: 6.6rem;
+    gap: 6rem;
+    align-items: center;
+}
+
+.section2 .bottom .box-3 {
+    min-width: 15rem;
+}
+
+.section2 .bottom .line {
+    width: 68px;
+    height: 0px;
+    border: 1px solid #D8D8D8;
+    transform: rotate(-90deg);
+}
+
+.section2 .bottom .box-3 .heading {
+    font-weight: 600;
+    font-size: 4rem;
+    line-height: 101.2%;
+    color: #231656;
+}
+
+.section2 .bottom .box-3 .des {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #4E4E4E;
+}
+
+.section3 {
+    width: 90%;
+    margin: 0 auto;
+    /* background-color: red; */
+    height: 100rem;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.section3>.heading {
+    font-weight: 600;
+    font-size: 5.5rem;
+    line-height: 101.2%;
+    /* or 56px */
+    text-align: center;
+    color: #B5B5B5;
+}
+
+.section3>.heading span {
+    color: #3D3269;
+}
+
+.section3 .box-grid {
+    display: grid;
+    grid-template-columns: 44rem 44rem 44rem;
+    grid-template-rows: 40rem 40rem;
+    column-gap: 4.2rem;
+    row-gap: 3.5rem;
+}
+
+.grid-2 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+
+.section3 .box-grid {
+    width: auto;
+    margin: 0 auto;
+}
+
+.section3 .box-grid .box {
+    padding: 4.3rem;
+}
+
+.section3 .box-grid .box .image {
+    width: 35rem;
+    height: 15rem;
+}
+
+.section3 .box-grid .box .detail {
+    width: 35rem;
+    height: 14.6rem;
+    margin-top: 2.8rem;
+}
+
+.box-grid .box .detail .heading {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 101.2%;
+    color: #3D3269;
+}
+
+.box-grid .box .detail .des {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    color: #4E4E4E;
+    margin-top: 1.5rem;
+}
+
+.justify-space-between {
+    justify-content: space-between;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.section3 .box-grid .box .left {
+    width: 45rem;
+    height: 18rem;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box-grid .box .left .heading {
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 101.2%;
+    color: #3D3269;
+}
+
+.box-grid .box .left .des {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 160%;
+    color: #4E4E4E;
+}
+
+.section3 .box-grid .box .right {
+    width: auto;
+    height: auto;
+}
+
+.section4 {
+    width: 90%;
+    margin: 19rem auto 0 auto;
+    height: 177.4rem;
+    background-image: url(../img/section5/bg.svg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 20rem;
+    flex-direction: column;
+    gap: 4rem;
+}
+
+.section4>.heading {
+    text-align: center;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 140%;
+    color: #FFFFFF;
+}
+
+.section4 .heading span {
+    color: #3D3269;
+}
+
+.section4 .box-gird {
+    width: 100%;
+    flex-direction: column;
+    gap: 3.2rem;
+}
+
+.section4 .box-gird .box {
+    height: 414px;
+    background: #FFFFFF;
+    padding: 7rem 10.5rem;
+    border-radius: 30px;
+    flex-direction: column;
+    gap: 6rem;
+}
+
+.section4 .box .top {
+    justify-content: space-between;
+}
+
+.section4 .box .top .left {
+    width: 40rem;
+    gap: 2rem;
+}
+
+.box .top .left .person {
+    width: 9.4rem;
+    height: 9.4rem;
+}
+
+.box .top .left .name {
+    flex-direction: column;
+    gap: 1rem;
+}
+
+.top .left .name .heading {
+    font-weight: 500;
+    font-size: 35px;
+    line-height: 101.2%;
+    color: #3D3269;
+}
+
+.top .left .name .des {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #625FFB;
+    text-decoration: none;
+}
+
+.section4 .box .top .right {
+    justify-content: space-around;
+}
+
+.section4 .box .top .right .start {
+    width: 4.9rem;
+    height: 4.9rem;
+}
+
+.section4 .box .bot {
+    font-weight: 400;
+    font-size: 2.6rem;
+    line-height: 160%;
+    color: #4E4E4E;
+}
+
+.section4 .box .bot::selection {
+    color: red;
+    background-color: yellow;
+}
+
+.section5 {
+    width: 90%;
+    height: 26rem;
+    margin: 15rem auto 0 auto;
+    justify-content: space-around;
+    gap: 13rem;
+}
+
+.section5 .left {
+    width: 58.6rem;
+    padding: 5rem 8rem;
+}
+
+.section5 .left .flex {
+    width: 428.92px;
+    height: 209.37px;
+}
+
+.section5 .left .flex .logo {
+    width: 19rem;
+    height: 18rem;
+}
+
+.section5 .right {
+    width: 69rem;
+    padding: 5rem 0;
+    justify-content: space-between;
+}
+
+.section5 .right .box {
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
+.section5 .right .box .heading {
+    font-weight: 600;
+    font-size: 80px;
+    line-height: 116.7%;
+    text-align: center;
+    color: #231656;
+}
+
+.section5 .right .box .start {
+    width: 4.9rem;
+    height: 4.9rem;
+}
+
+.section5 .right .box .des {
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 160%;
+    text-align: center;
+    text-transform: capitalize;
+    color: #231656;
+}
+
+.section6 {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+    flex-direction: column;
+    margin-top: 15rem;
+    gap: 4rem;
+}
+
+.section6 .heading {
+    font-style: normal;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 101%;
+    text-align: center;
+    color: #8C8C8C;
+}
+
+.section6 .heading span {
+    color: #231656;
+}
+
+.section6 .mobiie {
+    width: 90%;
+    margin: 0 auto;
+    height: auto;
+}
+
+.section6 .mobiie .img-sc6 {
+    height: 83rem;
+    width: 50rem;
+}
+
+.section6 .mode {
+    width: 90%;
+    margin: 0 auto;
+    justify-content: space-between;
+    height: 5.4rem;
+}
+
+.section6 .mode .content {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #4E4E4E;
+}
+
+.section6 .mode .button {
+    width: 17.5rem;
+    height: 5.4rem;
+    border: 1px solid #686868;
+    border-radius: 50rem;
+}
+
+.section6 .mode .button .box {
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 160%;
+
+}
+
+.dark {
+    color: #7D5FFF;
+}
+
+.light {
+    background: #FFC173;
+    border-radius: 500px;
+}
+
+.section7 {
+    width: 100%;
+    margin-top: 9rem;
+    height: 75rem;
+    background: #303030;
+    padding: 13rem 26rem;
+}
+
+.section7 .bank {
+    gap: 5rem;
+}
+
+.section7 .bank .content {
+    width: 55rem;
+    height: 46rem;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.bank .content .heading {
+    font-weight: 600;
+    font-size: 5.5rem;
+    line-height: 101.2%;
+    color: #8C8C8C;
+}
+
+.bank .content .heading span {
+    color: #fff;
+}
+
+.bank .content .detail {
+    height: auto;
+}
+
+.bank .content .des {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 160%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+    height: 13rem;
+}
+
+.bank .content .tick {
+    height: 15rem;
+}
+
+.bank .content .tick .left {
+    width: 50%;
+    flex-direction: column;
+}
+
+.content .tick .left .row {
+    gap: 1rem;
+    align-items: center;
+}
+
+.tick .left .row .icon {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.tick .left .row .text {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 249.5%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.bank .content .tick .right {
+    flex-direction: column;
+    width: 50%;
+}
+
+.content .tick .right .row {
+    gap: 1rem;
+    align-items: center;
+}
+
+.tick .right .row .icon {
+    width: 2.4rem;
+    height: 2.4rem;
+}
+
+.tick .right .row .text {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 249.5%;
+    text-transform: capitalize;
+    color: #FFFFFF;
+}
+
+.section7 .bank .credit {
+    width: 72rem;
+    height: 48.5rem;
+}
+
+.section8 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 15rem;
+    flex-direction: column;
+    gap: 5.5rem;
+}
+
+.section8 .heading {
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 101.2%;
+    text-align: center;
+    color: #B5B5B5;
+}
+
+.section8 .heading span {
+    color: #231656;
+}
+
+.section8 .box-3 {
+    justify-content: space-between;
+}
+
+.section8 .box-3 .col-3 {
+    flex-direction: column;
+    padding: 44px 45px 44px 45px;
+    gap: 2.5rem;
+}
+
+.section8 .box-3 .col-3 .image {
+    width: 35rem;
+    height: 15rem;
+}
+
+.section8 .box-3 .col-3 .detail {
+    flex-direction: column;
+    gap: 3rem;
+}
+
+.box-3 .col-3 .detail .price {
+    align-items: flex-end;
+    justify-content: space-around;
+    gap: 8rem;
+}
+
+.col-3 .detail .price .sub-price {
+    font-weight: 500;
+    font-size: 3.5rem;
+    line-height: 101.2%;
+    color: #3D3269;
+}
+
+.col-3 .detail .price .month {
+    font-weight: 500;
+    font-size: 2rem;
+    line-height: 101.2%;
+    color: #3D3269;
+
+}
+
+.box-3 .col-3 .detail .des {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 263%;
+    color: #4E4E4E;
+    padding: 0.8rem 0 0.8rem 3.6rem;
+}
+
+.box-3 .col-3 .detail .button {
+    width: 35rem;
+    height: 8rem;
+    background: #D7D7D7;
+    border-radius: 7.2rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 8rem;
+    text-transform: uppercase;
+    text-align: center;
+    color: #231656;
+}
+
+.box-3 .col-3:nth-child(2) .detail .button {
+    color: #fff;
+    background: #231656;
+}
