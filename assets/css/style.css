@@ -7,6 +7,7 @@
 html {
     font-size: 62.5%;
     font-family: 'Roboto', sans-serif;
+    scroll-behavior: smooth;
 }
 
 .grid {
@@ -256,4 +257,39 @@ footer .newstater .button .subscribe {
     line-height: 198.5%;
     text-align: center;
     color: #4E4E4E;
+}
+
+.subnav {
+    display: none;
+}
+
+.to-top {
+    position: fixed;
+    bottom: 2rem;
+    width: 6rem;
+    height: 6rem;
+    font-size: 3rem;
+    border: 1px solid #000;
+    right: 2rem;
+    border-radius: 6rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.to-top a {
+    text-decoration: none;
+}
+
+.game {
+    display: none;
+    position: absolute;
+    top: 20rem;
+    right: 10rem;
+    width: 170rem;
+    height: 50rem;
+    background-color: #fff;     
+}
+
+.block {
+    display: block;
 }

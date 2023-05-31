@@ -1,4 +1,4 @@
-@media (max-width: 76.8em) {
+@media (max-width: 46.23em) {
 
     header {
         width: 90%;
@@ -230,7 +230,7 @@
     .section5 .right .box .des {
         font-size: 2rem;
     }
-    
+
     .section6 {
         margin-top: 5rem;
     }
@@ -267,7 +267,7 @@
 
     .section7 .bank {
         flex-direction: column;
-    }   
+    }
 
     .section7 .bank .content {
         width: 100%;
@@ -335,7 +335,7 @@
         justify-content: space-around;
         gap: 5rem;
         width: 100%;
-    }   
+    }
 
     .col-3 .detail .price .sub-price {
         font-size: 2.5rem;
@@ -347,10 +347,10 @@
 
     .box-3 .col-3 .detail .button {
         width: 100%;
-    }   
+    }
 
     footer .newstater {
-       display: none;
+        display: none;
     }
 
     footer {
@@ -365,7 +365,7 @@
     .footer .logo {
         width: 100%;
         align-items: center;
-    }   
+    }
 
     .footer .logo .des {
         text-align: center;
@@ -389,13 +389,14 @@
     }
 
     .menu,
-    .utility, 
+    .utility,
     .address {
         width: 100%;
     }
 
     .copyright {
-        font-size: 1.4rem;;
+        font-size: 1.4rem;
+        ;
     }
 
     header .sub-menu {
@@ -407,16 +408,16 @@
     header .sub-menu:active {
         opacity: 0.8;
     }
-    
+
     .subnav {
         display: none;
-        position:absolute;
+        position: absolute;
         top: 5rem;
         right: 3rem;
         width: auto;
         height: auto;
         background-color: #fff;
-        border-radius: 5px ;
+        border-radius: 5px;
         border: 1px solid #ccc;
         padding: 2rem 1rem;
     }
@@ -424,7 +425,7 @@
     .open {
         display: block;
     }
-    
+
     .subnav ul {
         flex-direction: column;
         list-style-type: none;
@@ -435,7 +436,7 @@
     .subnav li {
         display: inline-block;
     }
-    
+
     .subnav li a {
         font-weight: 500;
         font-size: 1.8rem;
@@ -461,9 +462,14 @@
 
 
 
-    
+
 }
 
+@media (max-width: 102.2rem) {  
 
 
 
+
+
+
+}

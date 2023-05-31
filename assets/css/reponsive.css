@@ -132,7 +132,13 @@
         align-items: center;
     }
 
-
+    .to-top {
+        width: 3rem;
+        height: 3rem;
+        font-size: 2rem;
+        right: 0rem;
+        bottom: 0rem;
+    }
 
     
 }
