@@ -1,0 +1,139 @@
+.banner {
+    margin-top: 5rem;
+    width: 100%;
+    height: 40rem;
+    background: url(../img/login/Background.svg) no-repeat;
+    background-size: contain;
+    align-items: center;
+}
+
+.banner .heading {
+    font-weight: 600;
+    font-size: 8rem;
+    line-height: 116.7%;
+    text-align: center;
+    color: #231656;
+    flex: 1;
+}
+
+.section1 {
+    margin-top: 15rem;
+    width: 70%;
+    height: auto;
+    margin: 0 auto;
+    margin-top: 15rem;
+    background: #F5F5F5;
+    border-radius: 3rem;
+    padding: 10rem 11rem;
+    flex-direction: column;
+    gap: 5rem;
+    align-items: center;
+}
+
+.section1 .row {
+    flex-direction: column;
+    gap: 5rem;
+    justify-content: center;
+    align-items: center;
+}
+
+.section1 .row .heading {
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 110%;
+    text-align: center;
+    color: #242331;
+}
+
+.section1 .row .input {
+    width: 600px;
+    height: 80px;
+}
+
+.section1 .row .input input {
+    background: #FFFFFF;
+    border: 1px solid #D3D3D3;
+    border-radius: 100px;
+    padding: 3rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    color: #4E4E4E;
+    outline: none;
+}
+
+.section1 .button {
+    width: 20rem;
+    height: 7.5rem;
+    background: #231656;
+    border-radius: 4rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.noti {
+    display: none;
+    position: fixed;
+    top: 30rem;
+    left: 60rem;
+    width: 70rem;
+    height: 50rem;
+    flex-direction: column;
+    gap: 10rem;
+    padding: 5rem;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid #fff;
+    background: #F5F5F5;
+    border-radius: 3rem;
+    animation: in 0.5s ease-in;
+}
+
+.noti .row {
+    margin: 0 auto;
+    margin-top: 5rem;
+    height: 10rem;
+    min-width: 50rem;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 200%;
+    color: #4E4E4E;
+    text-align: center;
+}
+
+.noti .heading {
+    font-weight: 700;
+    font-size: 5rem;
+    line-height: 110%;
+    text-align: center;
+    color: #242331;
+}
+
+.noti .button {
+    margin: 0 auto;
+    margin-top: 5rem;
+    width: 20rem;
+    height: 7.5rem;
+    background: #231656;
+    border-radius: 4rem;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.2rem;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.open {
+    display: block;
+}

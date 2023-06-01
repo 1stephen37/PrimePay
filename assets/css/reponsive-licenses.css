@@ -1,0 +1,100 @@
+@media (max-width: 46.23em) {
+
+    .banner {
+        background-size: contain;
+        height: 9rem;
+    }
+
+    .banner .heading {
+        font-size: 4rem;
+    }
+
+    .section1 {
+        margin-top: 10rem;
+        height: auto;
+        gap: 5rem;
+    }
+
+    .section1 .sc1 {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .section1 .sc1 .left {
+        width: 100%;
+        font-size: 3.5rem;
+    }
+
+    .section1 .sc1 .right {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+    .section1 .sc2 {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .section1 .sc2 .left {
+        width: 100%;
+        font-size: 3.5rem;
+    }
+
+    .section1 .sc2 .right {
+        width: 100%;
+        font-size: 1.4rem;
+    }
+
+
+    .section1 .sc3 {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .section1 .sc3 .left {
+        width: 100%;
+        font-size: 3.5rem;
+    }
+
+    .section1 .sc3 .right {
+        width: 100%;
+    }
+    
+    .section1 .sc3 .right .des {
+        font-size: 1.4rem;
+
+    }
+
+    .section1 .sc3 .right .heading {
+        font-size: 2.5rem;
+
+    }
+
+    .section1 .sc3 .right .image {
+        font-size: 1.4rem;
+    }
+
+    .section1 .sc4 {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .section1 .sc4 .left {
+        font-size: 3.5rem;
+    }
+
+    .section1 .sc4 .right {
+        font-size: 1.4rem;
+
+    }
+
+
+
+
+
+
+}

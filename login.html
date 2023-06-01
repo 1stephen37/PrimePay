@@ -5,11 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="assets/css/style.css">
-    <link rel="stylesheet" type="text/css" href="assets/css/game.css">
+    <link rel="stylesheet" type="text/css" href="assets/css/login.css">
     <link rel="stylesheet" type="text/css" href="assets/icon/fontawesome-free-6.4.0-web/css/all.min.css">        
     <link rel="stylesheet" href="assets/icon/themify-icons/themify-icons.css">
-    <title>Game</title>
-    <link rel="stylesheet" href="assets/css/reponsive-game.css">
+    <title>Licenses</title>
+    <link rel="stylesheet" href="assets/css/reponsive.-login.css">
     <link rel="stylesheet" href="assets/css/reponsive.css">
     <link rel="stylesheet" href="assets/css/animate.css">
 
@@ -18,7 +18,7 @@
 
     <main>
 
-        <header class="flex">
+        <header id="header" class="flex">
             <div class="logo">
                 <a href="index.html">
                     <img class="img-full" src="assets/img/logo/Logo.svg" alt="">
@@ -27,7 +27,7 @@
 
             <ul class="nav flex">
                 <li>
-                    <a href="Licenses.html">
+                    <a href="">
                         Về chúng tôi
                     </a>
                 </li>
@@ -58,20 +58,62 @@
 
         <div class="clear"></div>
 
-      
-        <section id="canvas">
+        <section class="banner flex">
 
-
-            <canvas id="mycanvas" width="1700" height="700"  >
-
-
-            </canvas>
-
+            <div class="heading">
+                Đăng Nhập
+            </div>
 
         </section>
-        
-      
 
+        <section class="section1 flex">
+          
+            <div class="row flex">
+
+                <div class="heading">Nhập email của bạn</div>
+
+                <div class="input">
+                    <input id="mail" class="img-full" placeholder="Email của bạn" required type="email">
+                </div>
+
+            </div>
+
+            <div class="row flex">
+
+                <div class="heading">Nhập mật khẩu của bạn</div>
+
+                <div class="input">
+                    <input id="pass" class="img-full" placeholder="Mật khẩu của bạn" required type="password">
+                </div>
+
+            </div>
+
+            <div class="button flex" onclick="return check();">
+
+                Đăng Nhập
+
+            </div>
+
+        </section>
+      
+        <div class="noti flex">
+
+            <div class="heading">
+                Thông tin bạn đã nhập
+            </div>
+
+
+            <div class="row">
+
+               
+
+            </div>
+
+            <div id="confirm" class="button flex">
+                Xác Nhận
+            </div>
+
+        </div>
 
         <footer class="flex">
 
@@ -225,7 +267,7 @@
     
             <ul class="flex">
                 <li>
-                    <a href=""> 
+                    <a href="Licenses.html"> 
                         Về chúng tôi
                     </a>
                 </li>
@@ -245,10 +287,21 @@
                     </a>
                 </li>
                 <li>
-                    <div class="button-header flex">LOGIN</div>
+                    <div class="button-header flex">Đăng Nhập</div>
                 </li>
             </ul>
     
+        </div>
+
+        <div class="to-top flex">
+
+            <a href="#header">
+
+                <i class="ti-angle-up img-full">
+                </i>
+
+            </a>
+
         </div>
     
     </main>
@@ -268,7 +321,7 @@
 
 
     <script src="https://kit.fontawesome.com/9bf3965f57.js" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="assets/js/game.js"></script>
+    <script type="text/javascript" src="assets/js/login.js"></script>
     <script type="text/javascript" src="assets/js/main.js"></script>
 </body>
 </html>

@@ -1,4 +1,4 @@
-@media (max-width: 76.8em) {
+@media (max-width: 46.23em) {
 
     header {
         width: 90%;
@@ -135,7 +135,7 @@
     .to-top {
         width: 3rem;
         height: 3rem;
-        font-size: 2rem;
+        font-size: 1.5rem;
         right: 0rem;
         bottom: 0rem;
     }
@@ -144,5 +144,12 @@
 }
 
 
+@media (max-width: 102.2rem) {  
 
+
+
+
+
+
+}
 

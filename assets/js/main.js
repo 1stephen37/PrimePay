@@ -18,8 +18,21 @@ window.onload = function() {
     //     nav.style.display = 'none';
     // });
   
+    function login() {
+        var login = document.querySelector('header .button-header');
 
+        login.addEventListener('click', function () {
+
+            window.open('login.html', '_self');
+
+
+        });
+    }
+
+    login();
 }
+
+
 
     // $window.resize(function(){
      

@@ -16,3 +16,12 @@
         transform: translateY(-60px);
     }
 }
+
+@keyframes in {
+    from {
+        transform: translateY(-500px);
+    }
+    to {
+        transform: translateY(0px);
+    }
+}

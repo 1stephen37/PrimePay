@@ -1,0 +1,160 @@
+.banner {
+    margin-top: 5rem;
+    width: 100%;
+    height: 40rem;
+    background: url(../img/Licenses/Background.svg) no-repeat;
+    background-size: contain;
+    align-items: center;
+}
+
+.banner .heading {
+    font-weight: 600;
+    font-size: 8rem;
+    line-height: 116.7%;
+    text-align: center;
+    color: #231656;
+    flex: 1;
+}
+
+.section1 {
+    width: 90%;
+    margin: 0 auto;
+    margin-top: 30rem;
+    height: 146.7rem;
+    flex-direction: column;
+    gap: 12rem;
+}
+
+.section1 .line {
+    width: 100%;
+    border: 2px dashed #CCCCCC;
+    height: 0;
+}
+
+.section1 .sc1 {
+    height: 9rem;
+    gap: 30rem;
+}
+
+.section1 .sc1 .left {
+    width: 25rem;
+    font-weight: 600;
+    font-size: 5.5rem;
+    line-height: 116.7%;
+    color: #231656;
+
+}
+
+.section1 .sc1 .right {
+    width: 95rem;
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 150.5%;
+    color: #4E4E4E;
+}
+
+
+.section1 .sc1 .right span {
+    color: #8A6FFD;
+}
+
+.section1 .sc2 {
+    height: 25rem;
+    gap: 9rem;
+}
+
+.section1 .sc2 .left {
+    width: 40rem;
+    font-weight: 600;
+    font-size: 55px;
+    line-height: 116.7%;
+    color: #231656;
+}
+
+.section1 .sc2 .left span {
+    color: #B5B5B5;
+}
+
+.section1 .sc2 .right {
+    width: 100rem;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150.5%;
+    color: #4E4E4E;
+    flex-direction: column;
+    gap: 3.5rem;
+}
+
+.section1 .sc2 .right span {
+    color: #8A6FFD;
+}
+
+.section1 .sc2 .right .heading {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 110%;
+    color: #231656;
+}
+
+.section1 .sc3 {
+    gap: 17.5rem;
+    height: 23rem;
+}
+
+.section1 .sc3 .left {
+    font-weight: 600;
+    font-size: 5.5rem;
+    line-height: 101.2%;
+    color: #231656;
+}
+
+.section1 .sc3 .right {
+    flex-direction: column;
+    gap: 2rem;
+    width: 110rem;
+}
+
+.section1 .sc3 .right .des {
+    font-weight: 400;
+    font-size: 2rem;
+    line-height: 150.5%;
+    color: #4E4E4E;
+}
+
+.section1 .sc3 .right .heading {
+    font-weight: 700;
+    font-size: 3rem;
+    line-height: 110%;
+    color: #231656;
+
+}
+
+.section1 .sc3 .right .image {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 150.5%;
+    color: #8A6FFD;
+}
+
+.section1 .sc4 {
+    height: 5.6rem;
+    gap: 36rem;
+}
+
+.section1 .sc4 .left {
+    font-weight: 600;
+    font-size: 5.5rem;
+    line-height: 101.2%;
+    color: #231656;
+}
+
+.section1 .sc4 .right {
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 150.5%;
+    color: #4E4E4E;
+}
+
+.section1 .sc4 .right span {
+    color: #8A6FFD;
+}
