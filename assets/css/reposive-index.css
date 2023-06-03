@@ -1,27 +1,5 @@
 @media (max-width: 46.23em) {
 
-    header {
-        width: 90%;
-        height: 4rem;
-        margin: 1rem auto;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    header .logo {
-        margin-right: 10%;
-        width: 9.3rem;
-        height: 2.6rem;
-    }
-
-    header .nav {
-        display: none;
-    }
-
-    header .button-header {
-        display: none;
-    }
-
     .section1 {
         width: 100%;
         height: 62rem;
@@ -263,6 +241,7 @@
     .section7 {
         width: 100%;
         padding: 5rem 2rem;
+        height: auto;
     }
 
     .section7 .bank {
@@ -461,15 +440,128 @@
     }
 
 
-
-
 }
 
-@media (max-width: 102.2rem) {  
+@media (min-width: 740px) and (max-width:1023px) {
 
+    .section1 {
+        width: 100%;
+        height: 130rem;
+        top: -20rem;
+    }
 
+    .section1 .row {
+        width: 100%;
+        flex-direction: column;
+        gap: 10rem;
+        left: 0;
+        top: 20rem;
+        right: 0.5rem;
+        height: 100rem;
+    }
 
+    .section1 .row .box-3 {
+        width: 100%;
+        height: 30rem;
+        gap: 2rem;
+    }
 
+    .section1 .row .detail {
+        gap: 2rem;
+    }
 
+    .section2 {
+        top: 0rem;
+        width: 100%;
+    }
+
+    .section2 .row {
+        gap: 4%;
+    }
+
+    .section2 .row .left {
+        height: auto;
+        width: 48%;
+    }
+
+    .section2 .row .left .heading {
+        font-size: 4.5rem;
+    }
+
+    .section2 .row .left .des {
+        font-size: 1.8rem;
+    }
+
+    .row .left .button {
+        gap: 2rem;
+    }
+
+    .row .left .button .button-des {
+        font-size: 1.8rem;
+    }
+
+    .section2 .row .right {
+        width: 48%;
+    }
+
+    .section2 .bottom {
+        display: none;
+    }
+
+    .section3 {
+        margin-top: 10rem;
+        width: 100%;
+        height: auto;
+    }
+
+    .section3>.heading {
+        font-size: 4.5rem;
+    }
+
+    .section3 .box-grid {
+        width: 100%;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        row-gap: 1rem;
+        column-gap: 2rem;
+        margin: 0 auto;
+    }
+
+    .section3 .box-grid .box {
+        padding: 0 2rem;
+    }
+
+    .section3 .box-grid .box .detail {
+        height: auto;
+    }
+
+    .box-grid .box .detail .heading {
+        font-size: 3rem;
+    }
+
+    .box-grid .box .detail .des {
+        font-size: 1.8rem;
+    }
+
+    .section4 {
+        margin-top: 10rem;
+        width: 100%;
+        padding: 5rem;
+        height: auto;
+    }
+
+    .section4>.heading {
+        font-size: 4.5rem;
+    }
+
+    .section4 .box-gird .box {
+        height: auto;
+    }
+
+    .section4 .box .bot {
+        height: auto;
+        font-size: 2.4rem;
+    }
 
 }

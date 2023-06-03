@@ -27,6 +27,15 @@ window.onload = function() {
 
 
         });
+
+        var sub = document.querySelector('.subnav .button-header');
+
+        sub.addEventListener('click', function () {
+
+            window.open('login.html', '_self');
+
+
+        });
     }
 
     login();

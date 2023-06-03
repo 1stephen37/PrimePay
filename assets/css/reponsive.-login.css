@@ -1,0 +1,61 @@
+@media (max-width: 46.23em) {
+
+    .banner {
+        height: 10rem;
+    }
+
+    .banner .heading {
+        width: 100%;
+        font-size: 4rem;
+        line-height: 10rem;
+    }
+
+    .section1 {
+        margin-top: 5rem;
+        width: 100%;
+        padding: 0;
+    }
+
+    .section1 .row {
+        width: 100%;
+        height: auto;
+    }
+
+    .section1 .row .heading {
+        font-size: 3rem;
+    }
+
+    .section1 .row .input {
+        width: 100%;
+        height: auto;
+    }
+
+    .section1 .row .input input {
+        font-size: 1.4rem;
+    }
+
+    .noti {
+        /* display: block; */
+        top: 30rem;
+        left: 0.5rem;
+        width: 40rem;
+        height: auto;
+        padding: 5rem 0;
+        gap: 5rem;
+
+    }
+
+    .noti .row {
+        min-width: 40rem;
+        font-size: 1.4rem;
+    }
+
+    .noti .heading {
+        font-size: 3rem;
+    }
+
+    .noti .button {
+        margin-top: 0;
+    }
+
+}

@@ -1,0 +1,47 @@
+.section1 {
+    width: 50%;
+    margin: 0 auto;
+    margin-top: 15rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.swction1 .heading {
+    width: auto;
+    height: auto;
+}
+
+.section1 .sub-heading {
+    font-weight: 700;
+    font-size: 75px;
+    line-height: 110%;
+    text-align: center;
+    color: #231656;
+
+}
+
+.section1 .des {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 157.4%;
+    text-align: center;
+    color: #4E4E4E;
+}
+
+.section1 .button {
+    width: 27rem;
+    height: 7.5rem;
+    background: #231656;
+    border-radius: 40rem;
+    justify-content: center;
+    align-items: center;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #FFFFFF;
+    cursor: pointer;
+}

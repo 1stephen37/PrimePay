@@ -144,7 +144,72 @@
 }
 
 
-@media (max-width: 102.2rem) {  
+@media (min-width: 740px) and (max-width:1023px) {  
+    header .nav {
+        display: none;
+    }
+
+    header .button-header {
+        display: none;
+    }   
+
+    header .sub-menu {
+        display: block;
+        width: auto;
+        height: auto;
+        font-size: 5rem;
+    }
+
+    .subnav {
+        display: none;
+        position:absolute;
+        top: 10rem;
+        right: 5rem;
+        width: auto;
+        height: auto;
+        background-color: #fff;
+        border-radius: 5px ;
+        border: 1px solid #ccc;
+        padding: 2rem 2rem;
+    }
+
+    .open {
+        display: block;
+    }
+    
+    .subnav ul {
+        flex-direction: column;
+        list-style-type: none;
+        gap: 3rem;
+        align-items: center;
+    }
+
+    .subnav li {
+        display: inline-block;
+    }
+    
+    .subnav li a {
+        font-weight: 500;
+        font-size: 2rem;
+        line-height: 160%;
+        color: #231656;
+        text-decoration: none;
+        margin: 0 3rem;
+    }
+
+    .subnav .button-header {
+        width: 15rem;
+        height: 7rem;
+        background: #231656;
+        border-radius: 50px;
+        font-weight: 600;
+        font-size: 1.6rem;
+        line-height: 160%;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        justify-content: center;
+        align-items: center;
+    }
 
 
 

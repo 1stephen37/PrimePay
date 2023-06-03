@@ -355,6 +355,7 @@
 
 .box .top .left .name {
     flex-direction: column;
+    justify-content: center;
     gap: 1rem;
 }
 
