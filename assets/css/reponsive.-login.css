@@ -2,6 +2,7 @@
 
     .banner {
         height: 10rem;
+        background: none;
     }
 
     .banner .heading {
@@ -13,7 +14,7 @@
     .section1 {
         margin-top: 5rem;
         width: 100%;
-        padding: 0;
+        padding: 4rem 0;
     }
 
     .section1 .row {
@@ -58,4 +59,65 @@
         margin-top: 0;
     }
 
+}
+
+@media (min-width: 47em) and (max-width:80em) {
+    .banner {
+        height: 10rem;
+        background: none;
+    }
+
+    .banner .heading {
+        width: 100%;
+        font-size: 6rem;
+        line-height: 10rem;
+    }
+
+    .section1 {
+        margin-top: 10rem;
+        width: 100%;
+        padding: 5rem;
+    }
+
+    .section1 .row {
+        width: 100%;
+        height: auto;
+    }
+
+    .section1 .row .heading {
+        font-size: 4rem;
+    }
+
+    .section1 .row .input {
+        width: 70%;
+        height: auto;
+    }
+
+    .section1 .row .input input {
+        font-size: 1.4rem;
+    }
+
+    .noti {
+        /* display: block; */
+        top: 30rem;
+        left: 20%;
+        width: 55rem;
+        height: auto;
+        padding: 5rem 0;
+        gap: 5rem;
+
+    }
+
+    .noti .row {
+        min-width: 40rem;
+        font-size: 1.8rem;
+    }
+
+    .noti .heading {
+        font-size: 4rem;
+    }
+
+    .noti .button {
+        margin-top: 0;
+    }
 }

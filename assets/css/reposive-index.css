@@ -82,6 +82,7 @@
 
     .section3 {
         margin-top: 10rem;
+        height: auto;
     }
 
     .section3>.heading {
@@ -89,7 +90,7 @@
     }
 
     .section3 .box-grid {
-        width: 90%;
+        width: auto;
         display: grid;
         grid-template-columns: 30rem;
         grid-template-rows: 25rem 20rem 30rem 30rem 30rem 30rem;
@@ -129,7 +130,7 @@
 
     .section4 {
         width: 100%;
-        margin: 90rem auto 0 auto;
+        margin: 5rem auto 0 auto;
         padding: 2rem 1rem;
         height: auto;
     }
@@ -156,6 +157,21 @@
     .section4 .box .top .left {
         width: 100%;
         flex-direction: column;
+    }
+
+    .box .top .left .person {
+        width: 100%;
+
+    }
+
+    .box .top .left .name {
+        width: 100%;
+        align-items: center;
+    }
+
+    .section4 .box .top .right {
+        justify-content: center;
+        gap: 1rem;
     }
 
     .section4 .box .top .right .start {
@@ -442,7 +458,7 @@
 
 }
 
-@media (min-width: 740px) and (max-width:1023px) {
+@media (min-width: 47em) and (max-width:80em) {
 
     .section1 {
         width: 100%;
@@ -497,7 +513,7 @@
     }
 
     .row .left .button .button-des {
-        font-size: 1.8rem;
+        font-size: 1.6rem;
     }
 
     .section2 .row .right {
@@ -512,6 +528,7 @@
         margin-top: 10rem;
         width: 100%;
         height: auto;
+        gap: 5rem;
     }
 
     .section3>.heading {
@@ -521,18 +538,27 @@
     .section3 .box-grid {
         width: 100%;
         display: grid;
-        grid-template-columns: 1fr 1fr;
+        grid-template-columns: 48.5% 48.5%;
         grid-template-rows: 1fr 1fr 1fr;
-        row-gap: 1rem;
-        column-gap: 2rem;
+        row-gap: 5%;
+        column-gap: 8%;
         margin: 0 auto;
+        height: 110rem;
     }
 
     .section3 .box-grid .box {
-        padding: 0 2rem;
+        padding: 0;
+    }
+
+    .section3 .box-grid .box .right,
+    .section3 .box-grid .box .left {
+        width: 50%;
+        height: 100%;
+        gap: 2rem;
     }
 
     .section3 .box-grid .box .detail {
+        margin-right: 0;
         height: auto;
     }
 
@@ -563,5 +589,156 @@
         height: auto;
         font-size: 2.4rem;
     }
+
+    .section4 .box .top .left {
+        width: 100%;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section4 .box .top {
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .section4 .box .top .right {
+        justify-content: center;
+    }
+
+    .box .top .left .name {
+        justify-content: center;
+        align-items: center;
+    }
+
+    .section5 {
+        width: 100%;
+        flex-direction: column;
+        gap: 1rem;
+        height: auto;
+    }
+
+    .section5 .left {
+        width: 100%;
+        padding: 0;
+    }
+
+    .section5 .left .flex {
+        width: 80%;
+        justify-content: center;
+        gap: 10rem;
+        margin: 0 auto;
+    }
+
+    .section5 .right {
+        width: 100%;
+        gap: 1rem;
+    }
+
+    .section5 .right .box {
+        width: 50%;
+    }
+
+    .section6 .heading {
+        font-size: 4.5rem;
+    }
+
+    .section6 .mobiie {
+        width: 100%;
+        margin: 0;
+    }
+
+    .section6 .mobiie .img-sc6 {
+        width: 33.333%;
+        height: auto;
+    }
+
+    .section6 .mode {
+        width: 100%;
+        height: auto;
+        flex-direction: column;
+        gap: 2rem;
+    }
+
+    .section6 .mode .button {
+        width: 30%;
+        margin: 0 auto;
+    }
+
+    .section6 .mode .button .box,
+    .section6 .mode .button .box {
+        width: 30%;
+    }
+
+    .section7 {
+        padding: 3rem;
+    }
+
+    .section7 .bank {
+        width: 100%;
+        height: 100%;
+    }
+
+    .section7 .bank .content {
+        height: 100%;
+        width: 50%;
+    }
+
+    .section7 .bank .credit {
+        height: 100%;
+        width: 50%;
+    }
+
+    .bank .content .heading {
+        font-size: 4.5rem;
+    }
+
+    .bank .content .des {
+        font-size: 1.8rem;
+        height: auto;
+        width: 100%;
+    }
+
+    .bank .content .tick {
+        flex-direction: column;
+        height: auto;
+        width: 100%;
+        margin-top: 2rem;
+    }
+
+    .bank .content .tick .left,
+    .bank .content .tick .right {
+        width: 100%;
+    }
+
+    .tick .right .row .text,
+    .tick .left .row .text {
+        font-size: 2rem;
+    }
+
+    .content .tick .left .row,
+    .content .tick .right .row {
+        gap: 1rem;
+    }
+
+    .section8 {
+        width: 100%;
+    }
+
+    .section8 .heading {
+        font-size: 4.5rem;
+    }
+
+    .section8 .box-3 {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .section8 .box-3 .col-3 {
+        width: auto;
+        margin: 0 auto;
+    }
+
+
 
 }
