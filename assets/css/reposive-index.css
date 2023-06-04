@@ -541,7 +541,7 @@
         grid-template-columns: 48.5% 48.5%;
         grid-template-rows: 1fr 1fr 1fr;
         row-gap: 5%;
-        column-gap: 8%;
+        column-gap: 4%;
         margin: 0 auto;
         height: 110rem;
     }

@@ -51,7 +51,7 @@ var check = () => {
 
     localStorage.setItem('infor', JSON.stringify(infor));
     
-    var block = document.querySelector('.noti');
+    var block = document.querySelector('.background');
  
     block.classList.add('open');
 
@@ -72,7 +72,7 @@ var noti = `
 write.innerHTML = noti;
 
 document.getElementById('confirm').onclick = function () {
-    document.querySelector('.noti').classList.remove('open');
+    document.querySelector('.background').classList.remove('open');
 }
 
 

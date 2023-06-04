@@ -98,3 +98,101 @@
 
 
 }
+
+@media (min-width: 47em) and (max-width:80em) {
+
+    .banner {
+        background: none;
+        height: 10rem;
+    }
+
+    .banner .heading {
+        font-size: 6rem;
+        line-height: 10rem;
+    }
+
+    .section1 {
+        margin-top: 10rem;
+        height: auto;
+        gap: 5rem;
+    }
+
+    .section1 .sc1 {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .section1 .sc1 .left {
+        width: 100%;
+        font-size: 4.5rem;
+    }
+
+    .section1 .sc1 .right {
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+    .section1 .sc2 {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .section1 .sc2 .left {
+        width: 100%;
+        font-size: 4.5rem;
+    }
+
+    .section1 .sc2 .right {
+        width: 100%;
+        font-size: 1.8rem;
+    }
+
+
+    .section1 .sc3 {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .section1 .sc3 .left {
+        width: 100%;
+        font-size: 4.5rem;
+    }
+
+    .section1 .sc3 .right {
+        width: 100%;
+    }
+    
+    .section1 .sc3 .right .des {
+        font-size: 1.8rem;
+
+    }
+
+    .section1 .sc3 .right .heading {
+        font-size: 3rem;
+
+    }
+
+    .section1 .sc3 .right .image {
+        font-size: 1.8rem;
+    }
+
+    .section1 .sc4 {
+        flex-direction: column;
+        height: auto;
+        gap: 2rem;
+    }
+
+    .section1 .sc4 .left {
+        font-size: 4.5rem;
+    }
+
+    .section1 .sc4 .right {
+        font-size: 1.8rem;
+
+    }
+
+
+}

@@ -36,18 +36,15 @@
     }
 
     .noti {
-        /* display: block; */
-        top: 30rem;
-        left: 0.5rem;
-        width: 40rem;
+        display: block;
         height: auto;
         padding: 5rem 0;
         gap: 5rem;
-
+        width: 90%;
     }
 
     .noti .row {
-        min-width: 40rem;
+        width: auto;
         font-size: 1.4rem;
     }
 
@@ -94,27 +91,23 @@
     }
 
     .section1 .row .input input {
-        font-size: 1.4rem;
+        font-size: 1.8rem;
     }
 
     .noti {
-        /* display: block; */
-        top: 30rem;
-        left: 20%;
-        width: 55rem;
+        display: block;
+        width: 80%;
         height: auto;
         padding: 5rem 0;
         gap: 5rem;
-
     }
 
     .noti .row {
-        min-width: 40rem;
         font-size: 1.8rem;
     }
 
     .noti .heading {
-        font-size: 4rem;
+        font-size: 6rem;
     }
 
     .noti .button {
