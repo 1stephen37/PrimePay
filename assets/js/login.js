@@ -73,6 +73,7 @@ write.innerHTML = noti;
 
 document.getElementById('confirm').onclick = function () {
     document.querySelector('.background').classList.remove('open');
+    localStorage.removeItem('infor');
 }
 
 

@@ -96,7 +96,8 @@
     /* display: none; */
     opacity: 1;
     width: 70%;
-    margin: 50% auto;
+    margin: auto auto;
+    margin-top: 10%;
     /* z-index: 1; */
     height: auto;
     flex-direction: column;

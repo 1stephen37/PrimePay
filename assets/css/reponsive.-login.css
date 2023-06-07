@@ -41,6 +41,7 @@
         padding: 5rem 0;
         gap: 5rem;
         width: 90%;
+        margin-top: 50%;
     }
 
     .noti .row {
@@ -100,6 +101,7 @@
         height: auto;
         padding: 5rem 0;
         gap: 5rem;
+        margin-top: 30%;
     }
 
     .noti .row {
