@@ -279,6 +279,7 @@
     height: 18rem;
     flex-direction: column;
     justify-content: center;
+    gap: 2rem;
 }
 
 .box-grid .box .left .heading {
