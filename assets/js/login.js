@@ -10,6 +10,8 @@ console.log(pass);
 
 var check = document.querySelector('.section1 .button');
 
+var infor;
+
 var check = () => {
 
     if(mail.value == '') {
@@ -44,36 +46,34 @@ var check = () => {
         return false;
     }
 
-    var infor = {
+    infor = {
         mail : mail.value,
         pass : pass.value,
     }
 
-    localStorage.setItem('infor', JSON.stringify(infor));
+    // localStorage.setItem('infor', JSON.stringify(infor));
     
     var block = document.querySelector('.background');
  
     block.classList.add('open');
 
+    var write = document.querySelector('.noti .row');
+    
+    const noti = `
+        Email bạn đã nhập là: ${infor.mail} <br>
+        Mật khẩu bạn đã nhập là: ${infor.pass} 
+    `;
+    
+    write.innerHTML = noti;
+    
+    document.getElementById('confirm').onclick = function () {
+        document.querySelector('.background').classList.remove('open');
+        // localStorage.removeItem('infor');
+    }
 }
 
-var i4 = JSON.parse(localStorage.getItem('infor'));
+// var i4 = JSON.parse(localStorage.getItem('infor'));
 
-console.log(i4);
 
-var write = document.querySelector('.noti .row');
-
-var noti = `
-    Email bạn đã nhập là: ${i4.mail} <br>
-    Mật khẩu bạn đã nhập là: ${i4.pass} 
-
-`;
-
-write.innerHTML = noti;
-
-document.getElementById('confirm').onclick = function () {
-    document.querySelector('.background').classList.remove('open');
-    localStorage.removeItem('infor');
-}
 
 

@@ -543,7 +543,7 @@
         row-gap: 5%;
         column-gap: 4%;
         margin: 0 auto;
-        height: 110rem;
+        min-height: 110rem;
     }
 
     .section3 .box-grid .box {
@@ -657,7 +657,7 @@
         width: 100%;
         height: auto;
         flex-direction: column;
-        gap: 2rem;
+        gap: 5rem;
     }
 
     .section6 .mode .button {
